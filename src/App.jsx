@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import ButtonUsage from './Mui/Button';
+
 function App() {
   const [todos, setTodos] = useState([]);
   const baseUrl = 'https://68455f74fc51878754db30df.mockapi.io/api/v1';
@@ -49,6 +51,7 @@ function App() {
               >
                 Delete
               </button>
+              <ButtonUsage />
             </div>
           ))}
         </div>

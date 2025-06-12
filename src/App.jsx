@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-import ButtonUsage from './Mui/Button';
 
 function App() {
   const [todos, setTodos] = useState([]);
